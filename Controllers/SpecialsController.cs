@@ -9,10 +9,10 @@ namespace BlazingPizza.Controllers;
 public class SpecialsController : Controller
 {
     private readonly PizzaStoreContext _db;
-    public SpecialsController (PizzaStoreContext db)
-    {
 
-        _db =db;
+    public SpecialsController(PizzaStoreContext db)
+    {
+        _db = db;
     }
 
     [HttpGet]
