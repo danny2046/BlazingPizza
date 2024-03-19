@@ -22,5 +22,6 @@ public class Address
 
     [Required, RegularExpression(@"^([0-9]{6})$", ErrorMessage = "Please use a valid Postal Code with five numbers.")]
     public string PostalCode { get; set; }
+    
 }
 }
