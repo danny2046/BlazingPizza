@@ -64,7 +64,7 @@ public class SeedData
             },
              new PizzaSpecial()
             {
-                Id = 8,
+                Id = 9,
                 Name = "Danny's Pizza",
                 Description = "Traditional Italian pizza with tomatoes and basil",
                 BasePrice = 9.99m,

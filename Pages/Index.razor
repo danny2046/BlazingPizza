@@ -1,5 +1,6 @@
 @page "/"
 @inject HttpClient HttpClient
+@inject IJSRuntime JS
 @inject NavigationManager NavigationManager
 @using BlazingPizza.Services
 @inject OrderState OrderState
@@ -72,3 +73,7 @@
     specials = await HttpClient.GetFromJsonAsync<List<PizzaSpecial>>(NavigationManager.BaseUri + "specials");
   }
 }
+
+
+
+
